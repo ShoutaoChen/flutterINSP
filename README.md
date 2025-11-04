@@ -65,7 +65,12 @@ USAGE INSTRUCTIONS
 ------------------
 
 FEASIBLE ERECTION START DATE ANALYSIS
+
 Run Feasible_start_date.m with the total erection duration (d_tot) as input to obtain the feasible timeline of erection start dates for your selected city and terrain category.
+
+<img width="801" height="295" alt="image" src="https://github.com/user-attachments/assets/aa7f7bb9-53a9-4e19-8a74-b18fb5d8f078" />
+
+Figure 1 Showcase of feasible timeline of erection start dates
 
 FLUTTER SAFETY PROBABILITY ANALYSIS
 Run Flutter_safety_probability.m with specified ranges for:
@@ -73,7 +78,12 @@ Run Flutter_safety_probability.m with specified ranges for:
 d_tot_range: Range of total erection durations
 
 d_str_range: Range of erection start dates
+
 This generates a cloud map showing flutter safety probabilities for all possible erection schemes.
+
+<img width="327" height="307" alt="image" src="https://github.com/user-attachments/assets/8f5881d4-8d87-46f3-905b-fa35ad01db75" />
+
+Figure 2 Showcase of flutter safety probabilities cloud map
 
 CUSTOMIZATION FOR YOUR BRIDGE
 ------------------------------
