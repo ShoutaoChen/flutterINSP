@@ -90,11 +90,10 @@ For detailed theoretical foundations, please refer to the paper:
 "Feasible Erection Schedules of Suspension Bridge Considering Flutter Safety Under Extreme Wind Speeds"
 
 MATLAB VERSION
+--------------
 Developed and tested with MATLAB R2022a
 
 CONTACT INFORMATION
-[Add your contact details here]
-
-LICENSE INFORMATION
-[Add your license information here]
+-------------------
+Email: 244807009@csu.edu.cn
 
