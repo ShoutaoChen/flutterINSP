@@ -35,17 +35,17 @@ Historical wind speed data for your bridge location
 
 FILE STRUCTURE
 --------------
-root/
-├── Feasible_start_date.m          # Main program for feasible start date analysis
-├── Flutter_safety_probability.m   # Main program for flutter safety probability
-├── GAMMA_T.CST                    # Configuration file
-└── WDSP_database/                 # Historical wind speed database
-    ├── Dalian.txt
-    ├── Qingdao.txt
-    ├── Hangzhou.txt
-    ├── Taipei.txt
-    ├── Xiamen.txt
-    └── Hong Kong.txt
+    root/
+    ├── Feasible_start_date.m          # Main program for feasible start date analysis
+    ├── Flutter_safety_probability.m   # Main program for flutter safety probability
+    ├── GAMMA_T.CSV                   # Value table for parameter γ_t
+    └── WDSP_database/                 # Historical wind speed database
+            ├── wind_dalian_30.txt
+            ├── wind_qingdao_30.txt
+            ├── wind_hangzhou_30.txt
+            ├── wind_taipei_30.txt
+            ├── wind_xiamen_30.txt
+            └── wind_hongkong_30.txt
 
 DATABASE FORMAT
 ---------------
