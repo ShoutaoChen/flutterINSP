@@ -479,7 +479,7 @@ function plot_all_feas_timeline(data,d_tot)
     % Set axes and labels
     ylim([-4.5, 26.5]);
     xlim([0, 368]);
-    xlabel('$d_{str} (d)$', 'FontSize', 15, 'FontWeight', 'normal', 'FontName', 'Times New Roman','Interpreter','latex');
+    xlabel('$d_{str}$(d)', 'FontSize', 15, 'FontWeight', 'normal', 'FontName', 'Times New Roman','Interpreter','latex');
     box on
     % Add city separation lines and labels
     for city = 1:6
@@ -515,4 +515,5 @@ text(-47, 27.5, sprintf('($d_{tot} $= %dd)', d_tot), 'FontSize', 14, 'FontWeight
        'Location', 'northeast', 'FontSize', 12, 'FontName', 'Times New Roman',NumColumns=5,Box='off');
     
     hold off;
+
 end
